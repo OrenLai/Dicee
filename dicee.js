@@ -13,10 +13,10 @@ if (dicePlayer1 === dicePlayer2) {
   document.querySelector("h1").innerHTML = "Draw";
 }else if (dicePlayer1 > dicePlayer2){
   //player1 wins
-  document.querySelector("h1").innerHTML = "Player1 wins";
+  document.querySelector("h1").innerHTML = "🚩Player1 wins";
 }else{
   //Player2 wins
-  document.querySelector("h1").innerHTML = "Player2 wins";
+  document.querySelector("h1").innerHTML = "Player2 wins🚩";
 }
 
 //show the picture of the players' dice
